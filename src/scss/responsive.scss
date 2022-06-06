@@ -1,0 +1,14 @@
+@media screen and (max-width:575px){
+    #productContainer{
+        #ChoiceContainer{
+            #logo{
+                @include font(0.8em,white,bold);
+                margin-left: 30px;
+            }
+            select{
+                @include font(0.9em,rgb(28, 202, 129),bold);
+                margin-right: 30px;
+            }
+        }
+    }
+}
